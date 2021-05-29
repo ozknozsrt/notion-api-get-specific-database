@@ -1,6 +1,6 @@
 var corsProxy = "https://cors-anywhere.herokuapp.com/",
   url = corsProxy + "https://api.notion.com/v1/databases/",
-  authorizationToken = "Bearer" + process.env.TOKEN_ID,
+  authorizationToken = "Bearer " + process.env.TOKEN_ID,
   databaseId = process.env.DATABASE_ID;
 
 $(document).ready(function() {
